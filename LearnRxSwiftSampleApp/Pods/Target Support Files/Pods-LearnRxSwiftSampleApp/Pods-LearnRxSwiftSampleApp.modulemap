@@ -1,0 +1,6 @@
+framework module Pods_LearnRxSwiftSampleApp {
+  umbrella header "Pods-LearnRxSwiftSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
