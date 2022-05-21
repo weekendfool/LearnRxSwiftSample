@@ -20,6 +20,7 @@
 		8C8E27152837F3AA004EE8D4 /* LearnRxSwiftSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E27142837F3AA004EE8D4 /* LearnRxSwiftSampleAppUITestsLaunchTests.swift */; };
 		8C8E27222837F7F6004EE8D4 /* RxSwiftSampleOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E27212837F7F6004EE8D4 /* RxSwiftSampleOne.storyboard */; };
 		8C8E27242837F81D004EE8D4 /* RxSwiftSampleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E27232837F81D004EE8D4 /* RxSwiftSampleOneViewController.swift */; };
+		8C8E27272837FE43004EE8D4 /* RxSwiftSampleOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E27262837FE43004EE8D4 /* RxSwiftSampleOneViewModel.swift */; };
 		96AACB59EE84E07D51AD711E /* Pods_LearnRxSwiftSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCB46DAE97E0425B4C1F52F /* Pods_LearnRxSwiftSampleApp.framework */; };
 		DC3EEBEFF751BEF90D426698 /* Pods_LearnRxSwiftSampleApp_LearnRxSwiftSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C173C3BEA1DE849DDD65EBA6 /* Pods_LearnRxSwiftSampleApp_LearnRxSwiftSampleAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		8C8E27142837F3AA004EE8D4 /* LearnRxSwiftSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnRxSwiftSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C8E27212837F7F6004EE8D4 /* RxSwiftSampleOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwiftSampleOne.storyboard; sourceTree = "<group>"; };
 		8C8E27232837F81D004EE8D4 /* RxSwiftSampleOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSampleOneViewController.swift; sourceTree = "<group>"; };
+		8C8E27262837FE43004EE8D4 /* RxSwiftSampleOneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSampleOneViewModel.swift; sourceTree = "<group>"; };
 		A4FDC67E56F59F80BF0D6864 /* Pods_LearnRxSwiftSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwiftSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C173C3BEA1DE849DDD65EBA6 /* Pods_LearnRxSwiftSampleApp_LearnRxSwiftSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwiftSampleApp_LearnRxSwiftSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19C4D74EE28042C5C848344 /* Pods-LearnRxSwiftSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwiftSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-LearnRxSwiftSampleApp/Pods-LearnRxSwiftSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,9 +150,9 @@
 				8C8E26EE2837F3A8004EE8D4 /* AppDelegate.swift */,
 				8C8E26F02837F3A8004EE8D4 /* SceneDelegate.swift */,
 				8C8E26F22837F3A8004EE8D4 /* ViewController.swift */,
+				8C8E27252837FE1B004EE8D4 /* RxSwiftSampleOneV */,
 				8C8E26F42837F3A8004EE8D4 /* Main.storyboard */,
 				8C8E27212837F7F6004EE8D4 /* RxSwiftSampleOne.storyboard */,
-				8C8E27232837F81D004EE8D4 /* RxSwiftSampleOneViewController.swift */,
 				8C8E26FA2837F3AA004EE8D4 /* Assets.xcassets */,
 				8C8E26FC2837F3AA004EE8D4 /* LaunchScreen.storyboard */,
 				8C8E26FF2837F3AA004EE8D4 /* Info.plist */,
@@ -174,6 +176,15 @@
 				8C8E27142837F3AA004EE8D4 /* LearnRxSwiftSampleAppUITestsLaunchTests.swift */,
 			);
 			path = LearnRxSwiftSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		8C8E27252837FE1B004EE8D4 /* RxSwiftSampleOneV */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E27232837F81D004EE8D4 /* RxSwiftSampleOneViewController.swift */,
+				8C8E27262837FE43004EE8D4 /* RxSwiftSampleOneViewModel.swift */,
+			);
+			path = RxSwiftSampleOneV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8E26F32837F3A8004EE8D4 /* ViewController.swift in Sources */,
+				8C8E27272837FE43004EE8D4 /* RxSwiftSampleOneViewModel.swift in Sources */,
 				8C8E26EF2837F3A8004EE8D4 /* AppDelegate.swift in Sources */,
 				8C8E26F92837F3A8004EE8D4 /* LearnRxSwiftSampleApp.xcdatamodeld in Sources */,
 				8C8E26F12837F3A8004EE8D4 /* SceneDelegate.swift in Sources */,
